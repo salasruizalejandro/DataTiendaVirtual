@@ -33,14 +33,6 @@ h3{
     font-size: large;
 }
 
-h4{
-    margin: 10px auto;
-    font-family: var(--font-family);
-    font-weight: 100;
-    font-size: small;
-    text-align: center;
-}
-
 p{
     font-family: var(--font-family);
     font-weight: 300;
@@ -141,6 +133,7 @@ header #ImgProm{
     border: 2px solid var(--purple);
 }
 
+/* Main class de container de productos*/
 main{
     padding: 20px;
     background-color: #4B0082;
@@ -149,6 +142,24 @@ main{
 
 .ImgProducSc{
     height: 50px;
+}
+
+.producto{
+    color: var(--ghostWhite);
+    font-size: large|;
+}
+
+.valor{
+    color: var(--ghostWhite);
+}
+
+.verProducto{
+    color: var(--ghostWhite);
+    margin: 10px auto;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
 }
 
 #containerImgProductos{
@@ -217,4 +228,12 @@ form{
     color: var(--purple);
     border-radius: 10px;
     border: 2px solid var(--purple);
+}
+
+.footerText{
+    margin: 10px auto;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
 }
