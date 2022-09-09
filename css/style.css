@@ -142,15 +142,19 @@ main{
 
 .ImgProducSc{
     height: 50px;
+    margin: 10px auto;
 }
 
 .producto{
     color: var(--ghostWhite);
-    font-size: large|;
+    font-size: medium;
+    margin: 5px auto;
 }
 
 .valor{
     color: var(--ghostWhite);
+    font-weight: 900;
+    margin: 5px auto;
 }
 
 .verProducto{
