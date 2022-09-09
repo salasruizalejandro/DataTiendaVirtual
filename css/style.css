@@ -160,7 +160,7 @@ main{
 form{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 10px auto;
     padding: 20px;
     background-color: var(--purpleLight);
@@ -190,6 +190,7 @@ form{
 
 #quienesSomos li{
     margin: 10px auto;
+    font-size: large;
 }
 
 #hableConNos{
