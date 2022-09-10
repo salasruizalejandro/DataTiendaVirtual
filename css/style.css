@@ -57,10 +57,11 @@ nav{
     border-radius: 22px;
 }
 
-nav section{
+nav div{
     background-color: var(--ghostWhite);
     display: flex;
     border-radius: 10px;
+    margin: 20px;
 }
 
 nav section input{
@@ -248,8 +249,17 @@ form{
     font-size: large;
 }
 
+#texText{
+    resize: none;
+    width: 100%;
+}
+
+#inputName{
+    width: 100%;
+}
+
 #indexEnviarmensaje{
-    width: 35%;
+    width: 60%;
     height: 18%;
     background-color: var(--purple);
     color: var(--ghostWhite);
@@ -258,7 +268,7 @@ form{
 }
 
 #indexEnviarmensaje:hover{
-    width: 35%;
+    width: 60%;
     height: 18%;
     background-color: var(--ghostWhite);
     color: var(--purple);
