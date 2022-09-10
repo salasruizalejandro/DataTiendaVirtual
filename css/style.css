@@ -217,7 +217,7 @@ form{
     font-size: large;
 }
 
-#enviarMensaje{
+#indexEnviarmensaje{
     width: 35%;
     height: 18%;
     background-color: var(--purple);
@@ -226,7 +226,7 @@ form{
     border: 2px solid var(--ghostWhite);
 }
 
-#enviarMensaje:hover{
+#indexEnviarmensaje:hover{
     width: 35%;
     height: 18%;
     background-color: var(--ghostWhite);
@@ -242,49 +242,6 @@ form{
     font-size: small;
     text-align: center;
 }
-
-/*login html*/
-
-
-.loging {
-    display: flex;
-    height: 410px;
-    background-color: var(--ghostWhite);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#loginLabel{
-    margin: 25px;
-    font-family: var(--font-family);
-    font-weight: 900;
-    font-size: x-large;
-}
-
-#inputNombre{
-    margin: 10px;
-    width: 25%;
-    height: 7%;
-}
-
-#inputContraseña{
-    margin: 10px;
-    width: 25%;
-    height: 7%;
-}
-
-#enviarMensajeLogin{
-    width: 26%;
-    height: 12%;
-    background-color: var(--purple);
-    color: var(--ghostWhite);
-    border-radius: 10px;
-    border: 2px solid var(--ghostWhite);
-}
-
-
-
 
 
 /*Responsive 500*/
