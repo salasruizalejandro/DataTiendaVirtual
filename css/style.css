@@ -26,7 +26,7 @@ h2{
 }
 
 h3{
-    margin: 20px auto;
+    margin: 36px auto;
     font-family: var(--font-family);
     color: var(--ghostWhite);
     font-weight: 300;
@@ -127,6 +127,37 @@ header #ImgProm{
 .DisigButt:hover{
     margin: 10px auto;
     width: 43%;
+    height: 46px;
+    background-color: var(--ghostWhite);
+    color: var(--purple);
+    border-radius: 10px;
+    border: 2px solid var(--purple);
+}
+
+#containerAgregarproducto{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 61%;
+}
+
+/* botton add productos*/
+
+#agregarProductosAdd{
+    margin: 10px auto;
+    width: 136%;
+    height: 46px;
+    background-color: var(--purple);
+    color: var(--ghostWhite);
+    border-radius: 10px;
+    border: 2px solid var(--ghostWhite);
+}
+
+#agregarProductosAdd:hover{
+    margin: 10px auto;
+    width: 136%;
     height: 46px;
     background-color: var(--ghostWhite);
     color: var(--purple);
