@@ -44,3 +44,34 @@
     color: var(--purple);
     border: 2px solid var(--purple);
 }
+
+@media (max-width: 700px) {
+    #inputNombre{
+        margin: 10px;
+        width: 75%;
+        height: 7%;
+    }
+    
+    #inputContraseña{
+        margin: 10px;
+        width: 75%;
+        height: 7%;
+    }
+
+    #enviarMensaje{
+        width: 76%;
+        height: 12%;
+        background-color: var(--ghostWhite);
+        color: var(--purple);
+        border: 2px solid var(--purple);
+    }
+
+    #enviarMensaje:hover{
+        width: 76%;
+        height: 12%;
+        background-color: var(--ghostWhite);
+        color: var(--purple);
+        border: 2px solid var(--purple);
+    }
+
+}
