@@ -10,31 +10,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="./JS/index.js"></script>
     <title>Data</title>
-
 </head>
 
 <body>
     <nav>
         <img class="logoData" src="img/logoData.png" alt="Data">
-        <section>
+        <div>
             <input id="SearchWor" type="search" placeholder="¿Que deseas Buscar?">
             <button id="bottonBusqueda" class="material-symbols-outlined">search</button>
-        </section>
+        </div>
         <button id="loginClienandSold">Login</button>
     </nav>
     <header>
-        <section>
+        <div>
             <img id="ImgProm" src="img/Prom.png" alt="ImagenesProm">
-        </section>
+        </div>
         <section>
             <h2>Fin de Semestre promocional</h2>
             <p>Productos hasta 40% de descuento</p>
-            <button id="verProducto" class="DisigButt">Ver Producto</button>
+            <button id="verProducto" onclick="verProductos()" class="DisigButt">Ver Producto</button>
         </section>
     </header>
     <main>    
-        <section id="containerProductos">
+        <div id="containerProductos">
             <div>
                 <h3 class="nombreCategoria">Productos Tecnologicos</h3>
             </div>
@@ -78,10 +78,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section id="containerProductos">
+        </div> 
+        <div id="containerProductos">
             <div>
-                <h3 class="nombreCategoria">Productos Tecnologicos</h3>
+                <h3 id="Promociones">Promociones</h3>
             </div>
             <div>
                 <ul id="containerImgProductos">
@@ -123,12 +123,11 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        
+        </div>        
     </main>
 
-    <form action="">
-        <section class="SeccionLogTexto">
+    <form>
+        <div class="SeccionLogTexto">
             <img class="logoData" src="img/logoData.png" alt="LogoFinal">
             <ul id="quienesSomos">
                 <li>Quienes somos?</li>
@@ -136,18 +135,18 @@
                 <li>Nuestra tienda</li>
                 <li>Anuncia tu producto </li> 
             </ul>
-        </section>
-        <section class="Formulario"> 
-            <label id="hableConNos" for="inputparaName">Hable con nosotros.</label>
-            <input id="inputName" type="text" id="name" name="name" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
+        </div>
+        <div class="Formulario"> 
+            <label id="hableConNos">Hable con nosotros.</label>
+            <input id="inputName" type="text"  name="name" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
             <textarea name="mesaje" id="texText" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
             <button id="indexEnviarmensaje">Enviar mensaje</button>
-        </section>        
+        </div>        
     </form>
     <footer>
         <h4 class="footerText">Desarrollado por AlejandroRuiz<br>2022
         </h4>
     </footer> 
 </body>
-<script src="js/verProducto.js"></script>
+
 </html>
