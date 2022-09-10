@@ -3,33 +3,33 @@
 
 .loging {
     display: flex;
-    height: 410px;
+    height: 550px;
     background-color: var(--ghostWhite);
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#loginLabel{
+.labelTexto{
     margin: 25px;
     font-family: var(--font-family);
     font-weight: 900;
     font-size: x-large;
 }
 
-#inputNombre{
+.inputCajaTexto{
     margin: 10px;
     width: 25%;
     height: 7%;
 }
 
-#inputContraseña{
+.inputCajaTextoText{
     margin: 10px;
     width: 25%;
-    height: 7%;
+    height: 13%;
 }
 
-#enviarMensajeLogin{
+.botonEnviodeInfo{
     width: 26%;
     height: 12%;
     background-color: var(--purple);
