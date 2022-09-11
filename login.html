@@ -20,12 +20,12 @@
         <img class="logoData" src="img/logoData.png" alt="Data">
     </nav>
     <main>
-        <div class="loging">
+        <form class="loging">
             <label class="labelTexto" >Ingrese contraseña</label>
-            <input class="inputCajaTexto" id="inputNombre" type="text" name="name" required  minlength="4" maxlength="20" size="10" placeholder="Nombre de usuario">
-            <input class="inputCajaTexto" id="inputContraseña" type="password" name="name" required  minlength="4" maxlength="10" size="10" placeholder="Escribir contraseña">
+            <input class="inputCajaTexto" id="inputNombre" type="email" minlength="4" maxlength="50" placeholder="Correo electronico" required pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+            <input class="inputCajaTexto" id="inputContraseña" type="password" minlength="4" maxlength="10" size="10" placeholder="Escribir contraseña" required pattern="^.{4,8}$">
             <button class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
-        </div>
+        </form>
     </main>
 
     <form>
@@ -40,9 +40,9 @@
         </div>
         <div class="Formulario"> 
             <label id="hableConNos">Hable con nosotros.</label>
-            <input id="inputName" type="text" name="name" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
-            <textarea name="mesaje" id="texText" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
-            <button id="LoginMensajeEnviarForm">Enviar mensaje</button>
+            <input id="inputName" type="text"  name="name" required  minlength="4" maxlength="40" size="10" placeholder="Nombre">
+            <textarea name="mesaje" id="texText" cols="30" rows="5" minlength="10"  maxlength="40" placeholder="Escriba su mensaje." required></textarea>
+            <button id="indexEnviarmensaje">Enviar mensaje</button>
         </div>        
     </form>
     <footer>
