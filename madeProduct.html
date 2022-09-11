@@ -20,19 +20,19 @@
         <img class="logoData" src="img/logoData.png" alt="Data">
     </nav>
     <main>
-        <section class="loging">
-            <label id="loginLabel" class="labelTexto" for="inputparaName">Agrege nuevo producto</label>
+        <form class="loging">
+            <label id="loginLabel" class="labelTexto">Agrege nuevo producto</label>
             <input class="inputCajaTexto" id="urlImagen" type="url"  name="url" required  placeholder="Url de imagen">
             <input class="inputCajaTexto" id="categoria" type="text"  name="categoria" required  minlength="2" maxlength="20" size="10" placeholder="Categoria">
             <input class="inputCajaTexto" id="Nombredeproducto" type="text"  name="NombredeProducto" required  minlength="0" maxlength="10" size="10" placeholder="Nombre del producto">
-            <input class="inputCajaTexto" id="precio" type="number"  name="precio" required  minlength="4" maxlength="10" size="10" placeholder="Precio">
+            <input class="inputCajaTexto" id="precio" type="number"  name="precio" required  placeholder="Precio">
             <textarea class="inputCajaTextoText" name="texto" id="descripcionProducto" cols="120" rows="10" required placeholder="Descripcion del Producto"></textarea> 
             <button class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
-        </section>
+        </form>
     </main>
 
-    <form action="">
-        <section class="SeccionLogTexto">
+    <form >
+        <div class="SeccionLogTexto">
             <img class="logoData" src="img/logoData.png" alt="LogoFinal">
             <ul id="quienesSomos">
                 <li>Quienes somos?</li>
@@ -40,13 +40,13 @@
                 <li>Nuestra tienda</li>
                 <li>Anuncia tu producto </li> 
             </ul>
-        </section>
-        <section class="Formulario"> 
-            <label id="hableConNos" for="inputparaName">Hable con nosotros.</label>
-            <input id="inputName" type="text" id="name" name="name" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
+        </div>
+        <div class="Formulario"> 
+            <label id="hableConNos">Hable con nosotros.</label>
+            <input id="inputName" type="text" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
             <textarea name="mesaje" id="texText" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
             <button id="LoginMensajeEnviarForm">Enviar mensaje</button>
-        </section>        
+        </div>        
     </form>
     <footer>
         <h4 class="footerText">Desarrollado por AlejandroRuiz<br>2022
