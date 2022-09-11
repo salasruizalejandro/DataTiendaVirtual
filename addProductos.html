@@ -17,15 +17,15 @@
 <body>
     <nav>
         <img class="logoData" src="img/logoData.png" alt="Data">
-        <section>
+        <div>
             <input id="SearchWor" type="search" placeholder="¿Que deseas Buscar?">
             <button id="bottonBusqueda" class="material-symbols-outlined">search</button>
-        </section>
+        </div>
     </nav>
     <header id="containerAgregarproducto">
-        <section>
-            <button id="agregarProductosAdd" >Agregar producto</button>
-        </section>
+        <div>
+            <button  onclick="pasarPaginaAddProduct()"id="agregarProductosAdd" >Agregar producto</button>
+        </div>
     </header>
     <main>    
         <section id="containerProductos">
@@ -76,8 +76,8 @@
         
     </main>
 
-    <form action="">
-        <section class="SeccionLogTexto">
+    <form>
+        <div class="SeccionLogTexto">
             <img class="logoData" src="img/logoData.png" alt="LogoFinal">
             <ul id="quienesSomos">
                 <li>Quienes somos?</li>
@@ -85,19 +85,18 @@
                 <li>Nuestra tienda</li>
                 <li>Anuncia tu producto </li> 
             </ul>
-        </section>
-        <section class="Formulario"> 
-            <label id="hableConNos" for="inputparaName">Hable con nosotros.</label>
-            <input id="inputName" type="text" id="name" name="name" required  minlength="4" maxlength="10" size="10" placeholder="Nombre">
-            <textarea name="mesaje" id="texText" cols="30" rows="5" placeholder="Escriba su mensaje."></textarea>
+        </div>
+        <div class="Formulario"> 
+            <label id="hableConNos">Hable con nosotros.</label>
+            <input id="inputName" type="text"  name="name" required  minlength="4" maxlength="40" size="10" placeholder="Nombre">
+            <textarea name="mesaje" id="texText" cols="30" rows="5" minlength="10"  maxlength="40" placeholder="Escriba su mensaje." required></textarea>
             <button id="indexEnviarmensaje">Enviar mensaje</button>
-        </section>        
+        </div>        
     </form>
     <footer>
         <h4 class="footerText">Desarrollado por AlejandroRuiz<br>2022
         </h4>
     </footer> 
 </body>
-
-
+<script src="./JS/pasarMadeProduct.js"></script>
 </html>
