@@ -19,13 +19,14 @@
 
 .inputCajaTexto{
     margin: 10px;
-    width: 25%;
+    width: 50%;
     height: 7%;
 }
 
 .inputCajaTextoText{
+    resize: none;
     margin: 10px;
-    width: 25%;
+    width: 50%;
     height: 13%;
 }
 

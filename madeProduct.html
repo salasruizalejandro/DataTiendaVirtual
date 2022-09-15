@@ -23,11 +23,11 @@
         <form class="loging">
             <label id="loginLabel" class="labelTexto">Agrege nuevo producto</label>
             <input class="inputCajaTexto" id="urlImagen" type="url"  name="url" required  placeholder="Url de imagen">
-            <input class="inputCajaTexto" id="categoria" type="text"  name="categoria" required  minlength="2" maxlength="20" size="10" placeholder="Categoria">
-            <input class="inputCajaTexto" id="Nombredeproducto" type="text"  name="NombredeProducto" required  minlength="0" maxlength="10" size="10" placeholder="Nombre del producto">
-            <input class="inputCajaTexto" id="precio" type="number"  name="precio" required  placeholder="Precio">
-            <textarea class="inputCajaTextoText" name="texto" id="descripcionProducto" cols="120" rows="10" required placeholder="Descripcion del Producto"></textarea> 
-            <button class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
+            <input class="inputCajaTexto" id="categoria" type="text"  name="categoria" required  minlength="2" maxlength="10" placeholder="Categoria">
+            <input class="inputCajaTexto" id="Nombredeproducto" type="text"  name="NombredeProducto" required  minlength="0" maxlength="10" placeholder="Nombre del producto">
+            <input class="inputCajaTexto" id="precio" type="number"  name="precio" required  placeholder="Precio" pattern="^[0-9]+$">
+            <textarea class="inputCajaTextoText" id="descripcionProducto" name="texto"  cols="120" rows="10" minlength="5" maxlength="50" required placeholder="Descripcion del Producto"></textarea> 
+            <button onclick="recogerDatos()" class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
         </form>
     </main>
 
@@ -53,4 +53,5 @@
         </h4>
     </footer> 
 </body>
+<script src="./JS/madeProduct.js"></script>
 </html>
