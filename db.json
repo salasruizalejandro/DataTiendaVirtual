@@ -1,0 +1,12 @@
+{
+    "productos": [
+        {
+            "id":"1",
+            "imagenUrl": "https://www.steren.com.co/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/20806e462/memoria-usb-3-2-gen-1-de-128-gb-kingston.jpg",
+            "categoria":"Usbs",
+            "nombreProducto":"usb",
+            "precio": "900",
+            "descripcion":"de alta calidad"
+        }
+    ]
+}
