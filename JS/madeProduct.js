@@ -1,15 +1,21 @@
-let url = document.querySelector('#urlImagen');
-let categoria = document.querySelector('#categoria');
-let nombreProducto = document.querySelector('#Nombredeproducto');
-let precio = document.querySelector('#precio');
-let textDescripcion = document.querySelector('#descripcionProducto')
 
+const formulario = document.querySelector("[data-form]")
 
+formulario.addEventListener("submit", function(e){
+    e.preventDefault();
+    
+    const url = document.querySelector("[data-url]").value;
+    const categoria = document.querySelector("[data-categoria]").value;
+    const nombreProducto = document.querySelector("[data-nombreProducto]").value;
+    const precio = document.querySelector("[data-precio]").value;
+    const comentarios = document.querySelector("[data-comentario]").value;
 
-function recogerDatos(){
     console.log(url)
     console.log(categoria)
     console.log(nombreProducto)
     console.log(precio)
-    console.log(textDescripcion)
-}
+    console.log(comentarios)
+
+})
+
+

@@ -20,14 +20,14 @@
         <img class="logoData" src="img/logoData.png" alt="Data">
     </nav>
     <main>
-        <form class="loging">
+        <form class="loging" data-form>
             <label id="loginLabel" class="labelTexto">Agrege nuevo producto</label>
-            <input class="inputCajaTexto" id="urlImagen" type="url"  name="url" required  placeholder="Url de imagen">
-            <input class="inputCajaTexto" id="categoria" type="text"  name="categoria" required  minlength="2" maxlength="10" placeholder="Categoria">
-            <input class="inputCajaTexto" id="Nombredeproducto" type="text"  name="NombredeProducto" required  minlength="0" maxlength="10" placeholder="Nombre del producto">
-            <input class="inputCajaTexto" id="precio" type="number"  name="precio" required  placeholder="Precio" pattern="^[0-9]+$">
-            <textarea class="inputCajaTextoText" id="descripcionProducto" name="texto"  cols="120" rows="10" minlength="5" maxlength="50" required placeholder="Descripcion del Producto"></textarea> 
-            <button onclick="recogerDatos()" class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
+            <input  data-url class="inputCajaTexto" id="urlImagen" type="url"  name="url" required  placeholder="Url de imagen">
+            <input data-categoria class="inputCajaTexto" id="categoria" type="text"  name="categoria" required  minlength="2" maxlength="10" placeholder="Categoria">
+            <input data-nombreProducto  class="inputCajaTexto" id="Nombredeproducto" type="text"  name="NombredeProducto" required  minlength="0" maxlength="10" placeholder="Nombre del producto">
+            <input data-precio class="inputCajaTexto" id="precio" type="number"  name="precio" required  placeholder="Precio" pattern="^[0-9]+$">
+            <textarea data-comentario class="inputCajaTextoText" id="descripcionProducto" name="texto"  cols="120" rows="10" minlength="5" maxlength="50" required placeholder="Descripcion del Producto"></textarea> 
+            <button class="botonEnviodeInfo" id="enviarMensajeLogin">Enviar mensaje</button>
         </form>
     </main>
 
@@ -52,6 +52,6 @@
         <h4 class="footerText">Desarrollado por AlejandroRuiz<br>2022
         </h4>
     </footer> 
+    <script type="module" src="./JS/madeProduct.js"></script>
 </body>
-<script src="./JS/madeProduct.js"></script>
 </html>
