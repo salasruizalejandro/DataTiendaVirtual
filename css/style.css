@@ -173,6 +173,10 @@ main{
     width: 86%;
 }
 
+.card{
+    background-color: var(--purpleLight);
+}
+
 .ImgProducSc{
     height: 50px;
     margin: 10px auto;
