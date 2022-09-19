@@ -1,18 +1,33 @@
-import {listaProductos} from "../servicios/productos-servicios.js"
+import {listaProductos, productosServicios} from "../servicios/productos-servicios.js"
 
-const nuevoProducto =(name,price,imagenUrl)=>{
-    const nuevaCard = document.createElement("div")
+const nuevoProducto =(nombreProducto,precio,imagenUrl)=>{
+    const card = document.createElement("div")
     const contenido = `
-    <ul>
-        <li>
-            <img class="ImgProducSc" src="${imagenUrl}" alt="Productos">
-            <h4 class="producto">${name}</h4>
-            <h5 class="valor">${price}</h5>
-            <a class="verProducto" href="">ver producto</a>
-        </li>
-    </ul>
-    `;
-    nuevaCard.innerHTML=contenido;
-    nuevaCard.classList.add("nuevaCard");
-    return nuevaCard;
+    <div>
+        <img class="ImgProducSc" src="${imagenUrl}" alt="Productos">
+        <h4 class="producto">${nombreProducto}</h4>
+        <h5 class="valor">${precio}</h5>
+        <a class="verProducto" href="">ver producto</a>
+    </div>
+    `;  
+        
+    card.innerHTML= contenido;
+    card.classList.add("card");
+    return card;
 }
+
+const productos = document.querySelector("[data-producto]")
+
+const render = async () => {
+    try{
+        const listaProductos = await productosServicios.listaProductos()
+        listaProductos.forEach(elemento => {
+        productos.appendChild(nuevoProducto(elemento.nombreProducto, elemento.precio, elemento.imagenUrl))    
+        });
+    }catch(erro){
+        console.log(erro);
+    }
+} 
+
+render()
+
