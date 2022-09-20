@@ -19,9 +19,10 @@ const crearNuevaLinea = (imagenUrl, nombreProducto, precio) =>{
 const tabla = document.querySelector("[data-producto]")
 
 
+//fetch API
+const listaClientes = () => fetch("http://localhost:3000/productos").then( respuesta => respuesta.json());
 
-const listaClientes = () => {
-    const promise = new Promise ((resolve, reject) =>{
+/*    const promise = new Promise ((resolve, reject) =>{
         //1. Creacion de const http
         const http = new XMLHttpRequest();
         // 2. Creacion de conexion con Json
@@ -39,7 +40,8 @@ const listaClientes = () => {
         }
     })
     return promise
-}
+*/
+
 
 listaClientes().then((data) =>{
     data.forEach( perfil => {
