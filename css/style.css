@@ -203,7 +203,7 @@ main{
     text-align: center;
 }
 
-#containerImgProductos{
+.containerImgProductos{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
