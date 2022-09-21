@@ -10,6 +10,8 @@ const crearNuevaLinea = (imagenUrl, nombreProducto, precio) =>{
     <h4 class="producto">${nombreProducto}</h4>
     <h5 class="valor">${precio}</h5>
     <a class="verProducto" href="">ver producto</a>
+    <a class="verProducto" href="">Eliminar</a>
+    <a class="verProducto" href="">Editar</a>
     `;
     linea.innerHTML = content
     linea.classList.add("containerImgProductos")

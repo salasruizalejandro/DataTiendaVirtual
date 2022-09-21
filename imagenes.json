@@ -47,6 +47,14 @@
       "precio": "900",
       "comentarios": "amarillo y azul",
       "id": "ZyRRze_"
+    },
+    {
+      "imagenUrl": "https://www.pngplay.com/wp-content/uploads/12/Ironman-Free-PNG.png",
+      "categoria": "super hero",
+      "nombreProducto": "Iron man",
+      "precio": "500",
+      "comentarios": "amarillo y rojo",
+      "id": "dKSKYGA"
     }
   ]
 }
