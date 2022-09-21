@@ -39,22 +39,6 @@
       "nombreProducto": "usb",
       "precio": "70",
       "descripcion": "de alta calidad"
-    },
-    {
-      "imagenUrl": "https://media.revistagq.com/photos/5eaa92505a16590008bff7c4/master/pass/superman.jpg",
-      "categoria": "super hero",
-      "nombreProducto": "Superman",
-      "precio": "900",
-      "comentarios": "amarillo y azul",
-      "id": "ZyRRze_"
-    },
-    {
-      "imagenUrl": "https://www.pngplay.com/wp-content/uploads/12/Ironman-Free-PNG.png",
-      "categoria": "super hero",
-      "nombreProducto": "Iron man",
-      "precio": "500",
-      "comentarios": "amarillo y rojo",
-      "id": "dKSKYGA"
     }
   ]
 }

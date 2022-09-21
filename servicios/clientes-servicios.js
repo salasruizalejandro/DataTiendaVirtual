@@ -16,9 +16,17 @@ const crearCliente = (imagenUrl, categoria, nombreProducto, precio, comentarios)
     })
 }
 
+const eliminarClientes = (id) => {
+    console.log("eliminar " , id )
+    return fetch(`http://localhost:3000/productos/${id}`, {
+        method: "DELETE"
+    })
+}  
+
 
 export const clientServices = {
     listaClientes,
     crearCliente,
+    eliminarClientes
 }
 
