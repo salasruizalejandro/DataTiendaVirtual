@@ -1,4 +1,6 @@
+import { clientServices } from "../servicios/clientes-servicios.js"
 
+console.log(clientServices)
 
 // 5.Creacion nuevo producto
 const crearNuevaLinea = (imagenUrl, nombreProducto, precio) =>{
@@ -19,7 +21,7 @@ const crearNuevaLinea = (imagenUrl, nombreProducto, precio) =>{
 const tabla = document.querySelector("[data-producto]")
 
 
-listaClientes().then((data) =>{
+clientServices.listaClientes().then((data) =>{
     data.forEach( perfil => {
         const nuevaLinea = crearNuevaLinea(perfil.imagenUrl, perfil.nombreProducto, perfil.precio)
         tabla.appendChild(nuevaLinea)        

@@ -1,44 +1,44 @@
 {
-    "productos": [
-        {
-            "id":"1",
-            "imagenUrl": "assets/productos/D_NQ_NP-silver.jpg",
-            "categoria":"Usbs",
-            "nombreProducto":"usb",
-            "precio": "900",
-            "descripcion":"de alta calidad"
-        },
-        {
-            "id":"2",
-            "imagenUrl": "assets/productos/gb-kingston-blackandyelow.jpg",
-            "categoria":"Usbs",
-            "nombreProducto":"usb",
-            "precio": "900",
-            "descripcion":"de alta calidad"
-        },
-        {
-            "id":"3",
-            "imagenUrl": "assets/productos/Sandisk_De_32Gb-black.png",
-            "categoria":"Usbs",
-            "nombreProducto":"usb",
-            "precio": "900",
-            "descripcion":"de alta calidad"
-        },
-        {
-            "id":"4",
-            "imagenUrl": "assets/productos/usb-silver-blue.jpg",
-            "categoria":"Usbs",
-            "nombreProducto":"usb",
-            "precio": "900",
-            "descripcion":"de alta calidad"
-        },
-        {
-            "id":"5",
-            "imagenUrl": "assets/productos/usb-siver-light.jpg",
-            "categoria":"Usbs",
-            "nombreProducto":"usb",
-            "precio": "900",
-            "descripcion":"de alta calidad"
-        }
-    ]
+  "productos": [
+    {
+      "id": "1",
+      "imagenUrl": "assets/productos/D_NQ_NP-silver.jpg",
+      "categoria": "Usbs",
+      "nombreProducto": "usb",
+      "precio": "900",
+      "descripcion": "de alta calidad"
+    },
+    {
+      "id": "2",
+      "imagenUrl": "assets/productos/gb-kingston-blackandyelow.jpg",
+      "categoria": "Usbs",
+      "nombreProducto": "usb",
+      "precio": "900",
+      "descripcion": "de alta calidad"
+    },
+    {
+      "id": "3",
+      "imagenUrl": "assets/productos/Sandisk_De_32Gb-black.png",
+      "categoria": "Usbs",
+      "nombreProducto": "usb",
+      "precio": "900",
+      "descripcion": "de alta calidad"
+    },
+    {
+      "id": "4",
+      "imagenUrl": "assets/productos/usb-silver-blue.jpg",
+      "categoria": "Usbs",
+      "nombreProducto": "usb",
+      "precio": "900",
+      "descripcion": "de alta calidad"
+    },
+    {
+      "id": "5",
+      "imagenUrl": "assets/productos/usb-siver-light.jpg",
+      "categoria": "Usbs",
+      "nombreProducto": "usb",
+      "precio": "900",
+      "descripcion": "de alta calidad"
+    }
+  ]
 }
