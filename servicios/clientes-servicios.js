@@ -6,13 +6,13 @@ const listaClientes = () => fetch("http://localhost:3000/productos").then( respu
 
 
 //crear client 
-const crearCliente = (url, categoria, nombreProducto, precio, comentarios) => {
+const crearCliente = (imagenUrl, categoria, nombreProducto, precio, comentarios) => {
     return fetch("http://localhost:3000/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({url, categoria, nombreProducto, precio, comentarios})
+        body: JSON.stringify({imagenUrl, categoria, nombreProducto, precio, comentarios})
     })
 }
 

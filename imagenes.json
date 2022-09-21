@@ -11,17 +11,17 @@
     {
       "id": "2",
       "imagenUrl": "assets/productos/gb-kingston-blackandyelow.jpg",
-      "categoria": "Usbs",
-      "nombreProducto": "usb",
-      "precio": "900",
-      "descripcion": "de alta calidad"
+      "categoria": "Usbs-negra",
+      "nombreProducto": "usb-52",
+      "precio": "700",
+      "descripcion": "alta calidad"
     },
     {
       "id": "3",
       "imagenUrl": "assets/productos/Sandisk_De_32Gb-black.png",
       "categoria": "Usbs",
       "nombreProducto": "usb",
-      "precio": "900",
+      "precio": "300",
       "descripcion": "de alta calidad"
     },
     {
@@ -29,7 +29,7 @@
       "imagenUrl": "assets/productos/usb-silver-blue.jpg",
       "categoria": "Usbs",
       "nombreProducto": "usb",
-      "precio": "900",
+      "precio": "500",
       "descripcion": "de alta calidad"
     },
     {
@@ -37,7 +37,7 @@
       "imagenUrl": "assets/productos/usb-siver-light.jpg",
       "categoria": "Usbs",
       "nombreProducto": "usb",
-      "precio": "900",
+      "precio": "70",
       "descripcion": "de alta calidad"
     }
   ]
